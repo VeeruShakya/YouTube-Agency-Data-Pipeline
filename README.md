@@ -20,4 +20,4 @@ I built an automated end-to-end data engineering pipeline that ingests raw creat
 ## 📈 The Result
 A fully automated ETL (Extract, Transform, Load) script that eliminates manual spreadsheet formatting and prepares clean data for advanced SQL querying and dashboarding.
 
-![Final Clean Database in pgAdmin](pgadmin_database_view.png)
+![Image Alt](https://github.com/VeeruShakya/YouTube-Agency-Data-Pipeline/blob/1b27f3680dbc1e796d8dd0e9de85c9467e68553a/Screenshot%202026-02-27%20184301.png))
