@@ -22,3 +22,18 @@ A fully automated ETL (Extract, Transform, Load) script that eliminates manual s
 
 ![Image Alt](https://github.com/VeeruShakya/YouTube-Agency-Data-Pipeline/blob/1b27f3680dbc1e796d8dd0e9de85c9467e68553a/Screenshot%202026-02-27%20184301.png)
 ![Image Alt](https://github.com/VeeruShakya/YouTube-Agency-Data-Pipeline/blob/67c4cd65bd3f0b4bcb6c46d7f247803b22b6a5d1/Screenshot%202026-02-27%20184203.png)
+
+## 📊 V2: Advanced SQL Analytics Layer
+
+After establishing the automated Python-to-PostgreSQL pipeline, I engineered a production-ready SQL analytics layer to extract actionable business intelligence from the cleaned dataset. 
+
+This layer consists of advanced queries designed to answer high-level executive questions for creator agencies:
+
+* **Regional Adsense RPM:** Calculates revenue per mille (RPM) across geographic regions to identify the most profitable audiences.
+  * **Technical Flex:** Mathematical operators, `::DECIMAL` Type Casting, `GROUP BY`.
+* **Sponsor Lifetime Value (LTV) Audit:** Aggregates historical brand deal data to isolate high-value, recurring sponsors from one-off campaigns.
+  * **Technical Flex:** Aggregate Functions (`SUM`, `COUNT`), `HAVING` clause filtering.
+* **Month-Over-Month Viral Momentum:** Tracks chronological view velocity and revenue growth to forecast channel trajectory.
+  * **Technical Flex:** Pre-Aggregation Common Table Expressions (CTEs), `LAG()` Window Function, `OVER(ORDER BY)`.
+
+**[View the complete analytics script here](link_to_your_sql_file.sql)**
