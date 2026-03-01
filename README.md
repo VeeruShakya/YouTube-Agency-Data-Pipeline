@@ -36,4 +36,4 @@ This layer consists of advanced queries designed to answer high-level executive 
 * **Month-Over-Month Viral Momentum:** Tracks chronological view velocity and revenue growth to forecast channel trajectory.
   * **Technical Flex:** Pre-Aggregation Common Table Expressions (CTEs), `LAG()` Window Function, `OVER(ORDER BY)`.
 
-**[View the complete analytics script here](link_to_your_sql_file.sql)**
+**[View the complete analytics script here](https://github.com/VeeruShakya/YouTube-Agency-Data-Pipeline/blob/7ad676b735331e671aa14b09bef3a42d616f7c82/V2%20Advanced%20SQL%20Analytics%20Layer.sql))**
